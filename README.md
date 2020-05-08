@@ -17,7 +17,7 @@ Development
 We use gulp to concatenate all of the files and templates into one. We include a dev module that creates a server to imitate the CDN when gulp is watching. Just run the following command from the BetterTTV directory.
 
 ```
-gulp watch
+npx gulp watch
 ```
 
 A webserver will start and you are able to use the development version of BetterTTV on Twitch using this userscript in a script manager like TamperMonkey:
